@@ -12,7 +12,7 @@
 				<ul class="nav_links">
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>
-					<li><a href="#">Menus</a>
+					<li><a href="#">Menus <i class="fa-solid fa-angle-down me-2"></i></a>
 						<div class="dropdown">
 							<ul class="inner">
 								<li>

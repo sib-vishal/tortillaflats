@@ -1,7 +1,14 @@
 <footer id="footer" class="footer dark-background">
 
     <div class="containerFull">
-        <div class="row gy-3">
+
+    <div class="text-center">
+        <a href="index.php">
+            <img src="images/logo.png" alt="">
+        </a>
+
+    </div>
+        <div class="row gy-3 mt-5">
             <div class="col-lg-3 col-md-6 d-flex">
                 <i class="bi bi-geo-alt icon"></i>
                 <div class="address">
@@ -38,7 +45,7 @@
             <div class="col-lg-3 col-md-6">
                 <h4>Follow Us</h4>
                 <div class="social-links d-flex">
-                    <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
                     <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
                     <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
@@ -49,7 +56,7 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">XYZ</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Tortillaflats Restaurants</strong> <span>All Rights Reserved</span></p>
         <div class="credits">
             
         </div>

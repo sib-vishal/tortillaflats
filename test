@@ -1,0 +1,75 @@
+ <?php foreach ($lunchMenu as $category => $items): ?>
+                                    <div class="col-12 mb-4">
+                                        <h2 class="text_primary fontHeading "><?php echo $category; ?></h2>
+                                        <div class="row mt-4">
+                                            <?php foreach ($items as $item): ?>
+                                                <div class="col-md-6 mb-3">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title fontWeight600 fontHeading "><?php echo $item['name']; ?></h5>
+                                                            <p class="card-text"><?php echo $item['description']; ?></p>
+                                                            <p class="card-text  text-success mt-3">
+                                                                <strong>$<?php echo $item['price']; ?></strong>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            <?php endforeach; ?>
+                                        </div>
+                                    </div>
+                                <?php endforeach; ?>
+
+
+
+
+                                <?php
+$dinnerMenu = [
+    "Local Favorites" => [
+        ["name" => "Green Chile Chops", "price" => "18.39"],
+        ["name" => "Blue Corn Chicken Flautas", "price" => "12.99"],
+        ["name" => "Chile Relleno Plate", "price" => "16.29"],
+    ],
+    "Enchilada Plate" => [
+        ["name" => "Cheese", "price" => "14.59"],
+        ["name" => "Chicken or Beef", "price" => "17.59"],
+        ["name" => "Vegetarian", "price" => "17.59"],
+    ],
+    "Carne Adovada Plate" => [
+        ["name" => "Carne Adovada Plate", "price" => "15.59"],
+    ],
+    "Tamale Plate" => [
+        ["name" => "Tamale Plate", "price" => "14.29"],
+    ],
+    "Taco Plate" => [
+        ["name" => "Beef or Chicken", "price" => "15.59"],
+        ["name" => "Fish", "price" => "16.40"],
+        ["name" => "Brisket", "price" => "18.59"],
+    ],
+    "Fajitas" => [
+        ["name" => "Beef or Chicken (1 Person)", "price" => "20.99"],
+        ["name" => "Shrimp (1 Person)", "price" => "24.69"],
+        ["name" => "Beef or Chicken (2 Person)", "price" => "36.99"],
+        ["name" => "Shrimp (2 Person)", "price" => "42.99"],
+    ],
+    "Quesadillas" => [
+        ["name" => "Chicken Quesadilla", "price" => "15.59"],
+        ["name" => "Roast Beef Quesadilla", "price" => "16.39"],
+        ["name" => "Shrimp Quesadilla", "price" => "16.39"],
+        ["name" => "Vegetarian Quesadilla", "price" => "15.39"],
+        ["name" => "Brisket Quesadilla", "price" => "17.39"],
+    ],
+    "Burritos" => [
+        ["name" => "Chicken Chimichangas", "price" => "13.59"],
+        ["name" => "Carne Adovada and Potato Burrito", "price" => "13.39"],
+        ["name" => "Pork Carnitas", "price" => "13.39"],
+    ],
+    "Burrito Plate or Stuffed Soppapilla" => [
+        ["name" => "Bean", "price" => "12.39"],
+        ["name" => "Chorizo & Bean", "price" => "13.59"],
+        ["name" => "Roast Beef", "price" => "14.29"],
+        ["name" => "Ground Beef or Beef & Bean Combo", "price" => "13.29"],
+        ["name" => "Vegetarian", "price" => "13.39"],
+    ],
+];
+?>
+                           
